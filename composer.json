@@ -1,0 +1,26 @@
+{
+    "name": "dlabsit/magento2-language-packs",
+    "description": "Storefront translations for Magento 2 (Hyvä and Luma): Greek, Albanian, Bulgarian, Dutch and Macedonian. Customer account, cart, checkout, wishlist, search and messages.",
+    "type": "magento2-language",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dlabs IT",
+            "email": "info@dlabs.nl",
+            "homepage": "https://dlabs.nl"
+        }
+    ],
+    "require": {
+        "magento/framework": ">=103.0.0"
+    },
+    "autoload": {
+        "files": [
+            "el_gr/registration.php",
+            "sq_al/registration.php",
+            "bg_bg/registration.php",
+            "nl_nl/registration.php",
+            "mk_mk/registration.php"
+        ]
+    },
+    "keywords": ["magento", "magento2", "hyva", "language-pack", "translation", "i18n", "el_GR", "sq_AL", "bg_BG", "nl_NL", "mk_MK"]
+}
